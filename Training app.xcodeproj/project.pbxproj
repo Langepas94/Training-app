@@ -19,6 +19,8 @@
 		4479A58229067C190051DADE /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479A58129067C190051DADE /* ProgressController.swift */; };
 		4479A58429067C450051DADE /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479A58329067C450051DADE /* SessionController.swift */; };
 		4479A5B02906A8C40051DADE /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479A5AF2906A8C40051DADE /* SecondaryButton.swift */; };
+		4479A5B22906C5580051DADE /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479A5B12906C5580051DADE /* OverviewNavBar.swift */; };
+		4479A5B42906C5850051DADE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479A5B32906C5850051DADE /* BaseView.swift */; };
 		4494861E2902D80800A483DA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494861D2902D80800A483DA /* TabBarController.swift */; };
 		449486212902DC5E00A483DA /* UIcolor + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449486202902DC5E00A483DA /* UIcolor + extension.swift */; };
 		449486242902DFE500A483DA /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449486232902DFE500A483DA /* Resources.swift */; };
@@ -39,6 +41,8 @@
 		4479A58129067C190051DADE /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		4479A58329067C450051DADE /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		4479A5AF2906A8C40051DADE /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		4479A5B12906C5580051DADE /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		4479A5B32906C5850051DADE /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		4494861D2902D80800A483DA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		449486202902DC5E00A483DA /* UIcolor + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor + extension.swift"; sourceTree = "<group>"; };
 		449486232902DFE500A483DA /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
@@ -119,6 +123,7 @@
 				4494861D2902D80800A483DA /* TabBarController.swift */,
 				4479A573290674B20051DADE /* NavBarController.swift */,
 				4479A5762906788B0051DADE /* BaseController.swift */,
+				4479A5B32906C5850051DADE /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				4479A5AF2906A8C40051DADE /* SecondaryButton.swift */,
+				4479A5B12906C5580051DADE /* OverviewNavBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 			files = (
 				442344942902AA96005E57D6 /* OverviewController.swift in Sources */,
 				4494861E2902D80800A483DA /* TabBarController.swift in Sources */,
+				4479A5B22906C5580051DADE /* OverviewNavBar.swift in Sources */,
 				4479A57929067A8F0051DADE /* UIView + extension.swift in Sources */,
 				442344902902AA96005E57D6 /* AppDelegate.swift in Sources */,
 				4479A58029067BF30051DADE /* SettingsController.swift in Sources */,
@@ -263,6 +270,7 @@
 				449486242902DFE500A483DA /* Resources.swift in Sources */,
 				442344922902AA96005E57D6 /* SceneDelegate.swift in Sources */,
 				4479A5772906788B0051DADE /* BaseController.swift in Sources */,
+				4479A5B42906C5850051DADE /* BaseView.swift in Sources */,
 				4479A58429067C450051DADE /* SessionController.swift in Sources */,
 				449486212902DC5E00A483DA /* UIcolor + extension.swift in Sources */,
 			);

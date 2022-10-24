@@ -27,6 +27,9 @@ enum Resources {
         enum Overview {
             static var allWorkoutsButton = "All Workouts"
         }
+        enum NavBar {
+            static var overview = "Today"
+        }
     }
         enum Images {
             static var overview = UIImage(named: "overview_tab")
@@ -36,6 +39,7 @@ enum Resources {
             
             enum Common {
                 static var downArrow = UIImage(named: "down_arrow")
+                static var add = UIImage(named: "addButton")
             }
             
            

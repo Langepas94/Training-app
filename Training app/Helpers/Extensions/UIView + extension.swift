@@ -31,4 +31,8 @@ extension UIView {
             self.alpha = 1
         }
     }
+    func addView(_ view: UIView) {
+        addSubview(view)
+        view.translatesAutoresizingMaskIntoConstraints = false
+    }
 }
