@@ -18,6 +18,7 @@
 		4479A58029067BF30051DADE /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479A57F29067BF30051DADE /* SettingsController.swift */; };
 		4479A58229067C190051DADE /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479A58129067C190051DADE /* ProgressController.swift */; };
 		4479A58429067C450051DADE /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479A58329067C450051DADE /* SessionController.swift */; };
+		4479A5B02906A8C40051DADE /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479A5AF2906A8C40051DADE /* SecondaryButton.swift */; };
 		4494861E2902D80800A483DA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494861D2902D80800A483DA /* TabBarController.swift */; };
 		449486212902DC5E00A483DA /* UIcolor + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449486202902DC5E00A483DA /* UIcolor + extension.swift */; };
 		449486242902DFE500A483DA /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449486232902DFE500A483DA /* Resources.swift */; };
@@ -37,6 +38,7 @@
 		4479A57F29067BF30051DADE /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		4479A58129067C190051DADE /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		4479A58329067C450051DADE /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		4479A5AF2906A8C40051DADE /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		4494861D2902D80800A483DA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		449486202902DC5E00A483DA /* UIcolor + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor + extension.swift"; sourceTree = "<group>"; };
 		449486232902DFE500A483DA /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		4479A57B29067BC70051DADE /* Overview */ = {
 			isa = PBXGroup;
 			children = (
+				4479A5AE2906A89D0051DADE /* Views */,
 				442344932902AA96005E57D6 /* OverviewController.swift */,
 			);
 			path = Overview;
@@ -151,6 +154,14 @@
 				4479A57F29067BF30051DADE /* SettingsController.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		4479A5AE2906A89D0051DADE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4479A5AF2906A8C40051DADE /* SecondaryButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		4494861F2902DC4200A483DA /* Helpers */ = {
@@ -247,6 +258,7 @@
 				442344902902AA96005E57D6 /* AppDelegate.swift in Sources */,
 				4479A58029067BF30051DADE /* SettingsController.swift in Sources */,
 				4479A58229067C190051DADE /* ProgressController.swift in Sources */,
+				4479A5B02906A8C40051DADE /* SecondaryButton.swift in Sources */,
 				4479A574290674B20051DADE /* NavBarController.swift in Sources */,
 				449486242902DFE500A483DA /* Resources.swift in Sources */,
 				442344922902AA96005E57D6 /* SceneDelegate.swift in Sources */,
