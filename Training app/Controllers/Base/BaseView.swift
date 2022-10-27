@@ -13,7 +13,7 @@ class BaseView: UIView {
         super.init(frame: frame)
         addViews()
         layoutViews()
-        config()
+        configureView()
         
     }
     
@@ -32,7 +32,7 @@ class BaseView: UIView {
         
     }
     
-    func config() {
+    func configureView() {
         
     }
 }

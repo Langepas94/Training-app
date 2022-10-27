@@ -24,6 +24,9 @@
 		4494861E2902D80800A483DA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494861D2902D80800A483DA /* TabBarController.swift */; };
 		449486212902DC5E00A483DA /* UIcolor + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449486202902DC5E00A483DA /* UIcolor + extension.swift */; };
 		449486242902DFE500A483DA /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449486232902DFE500A483DA /* Resources.swift */; };
+		44D34EE6290A5C3B00A3B3AA /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D34EE5290A5C3B00A3B3AA /* WeekView.swift */; };
+		44D34EE8290A610200A3B3AA /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D34EE7290A610200A3B3AA /* WeekdayView.swift */; };
+		44D34EEA290A6B7300A3B3AA /* Date + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D34EE9290A6B7300A3B3AA /* Date + extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		4494861D2902D80800A483DA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		449486202902DC5E00A483DA /* UIcolor + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor + extension.swift"; sourceTree = "<group>"; };
 		449486232902DFE500A483DA /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		44D34EE5290A5C3B00A3B3AA /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		44D34EE7290A610200A3B3AA /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		44D34EE9290A6B7300A3B3AA /* Date + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,7 @@
 		4479A5AE2906A89D0051DADE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				44D34EE4290A5C2100A3B3AA /* WeekView */,
 				4479A5AF2906A8C40051DADE /* SecondaryButton.swift */,
 				4479A5B12906C5580051DADE /* OverviewNavBar.swift */,
 			);
@@ -184,8 +191,18 @@
 			children = (
 				449486202902DC5E00A483DA /* UIcolor + extension.swift */,
 				4479A57829067A8F0051DADE /* UIView + extension.swift */,
+				44D34EE9290A6B7300A3B3AA /* Date + extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		44D34EE4290A5C2100A3B3AA /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				44D34EE5290A5C3B00A3B3AA /* WeekView.swift */,
+				44D34EE7290A610200A3B3AA /* WeekdayView.swift */,
+			);
+			path = WeekView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D34EE6290A5C3B00A3B3AA /* WeekView.swift in Sources */,
 				442344942902AA96005E57D6 /* OverviewController.swift in Sources */,
 				4494861E2902D80800A483DA /* TabBarController.swift in Sources */,
 				4479A5B22906C5580051DADE /* OverviewNavBar.swift in Sources */,
@@ -268,9 +286,11 @@
 				4479A5B02906A8C40051DADE /* SecondaryButton.swift in Sources */,
 				4479A574290674B20051DADE /* NavBarController.swift in Sources */,
 				449486242902DFE500A483DA /* Resources.swift in Sources */,
+				44D34EEA290A6B7300A3B3AA /* Date + extension.swift in Sources */,
 				442344922902AA96005E57D6 /* SceneDelegate.swift in Sources */,
 				4479A5772906788B0051DADE /* BaseController.swift in Sources */,
 				4479A5B42906C5850051DADE /* BaseView.swift in Sources */,
+				44D34EE8290A610200A3B3AA /* WeekdayView.swift in Sources */,
 				4479A58429067C450051DADE /* SessionController.swift in Sources */,
 				449486212902DC5E00A483DA /* UIcolor + extension.swift in Sources */,
 			);
