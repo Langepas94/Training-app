@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class BaseInfoView: BaseView {
+class WABaseInfoView: BaseView {
     private let titleLabel: UILabel = {
         let label = UILabel()
        
@@ -17,6 +17,9 @@ class BaseInfoView: BaseView {
         
         return label
     }()
+    
+    private let button = WAButton(with: .primary)
+    
     private let contentView: UIView = {
         let view  = UIView()
         view.backgroundColor = .white
@@ -26,23 +29,30 @@ class BaseInfoView: BaseView {
         return view
     }()
     
-    init(with title: String? = nil, alignment: NSTextAlignment = .left) {
+    init(with title: String? = nil, buttonTitle: String? = nil) {
         
         titleLabel.text = title?.uppercased()
-        titleLabel.textAlignment = alignment
+        titleLabel.textAlignment = buttonTitle == nil ? .center : .left
+        button.setTitle(buttonTitle)
+        button.isHidden = buttonTitle == nil ? true : false
         super.init(frame: .zero)
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    func addButtonTarget(target: Any?, action: Selector) {
+        button.addTarget(action, action: action, for: .touchUpInside)
+    }
 }
     
-extension BaseInfoView {
+extension WABaseInfoView {
     override func setupViews() {
         super.setupViews()
         addView(titleLabel)
         addView(contentView)
+        addView(button)
     }
     override func constraintViews() {
         super.constraintViews()
@@ -60,7 +70,14 @@ extension BaseInfoView {
             contentView.topAnchor.constraint(equalTo: contentTopAnchor, constant: contentTopOffset),
             contentView.leadingAnchor.constraint(equalTo: leadingAnchor),
             contentView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            contentView.bottomAnchor.constraint(equalTo: bottomAnchor)
+            contentView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            
+            button.trailingAnchor.constraint(equalTo: trailingAnchor),
+            button.centerYAnchor.constraint(equalTo: titleLabel.centerYAnchor),
+//            button.widthAnchor.constraint(equalToConstant: 130),
+            button.heightAnchor.constraint(equalToConstant: 28)
+            
+            
         ])
     }
     override func configureView() {

@@ -20,11 +20,16 @@ final class TabBarController: UITabBarController {
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         configure()
+        switchTo(tab: .session)
 
     
     }
     required init?(coder: NSCoder) {
         fatalError()
+    }
+    
+    func switchTo(tab: Tabs) {
+        selectedIndex = tab.rawValue
     }
     
     private func configure() {
