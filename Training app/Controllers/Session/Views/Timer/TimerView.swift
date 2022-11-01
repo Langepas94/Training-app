@@ -11,7 +11,7 @@ import UIKit
 final class TimerView: WABaseInfoView {
     private let progressView: ProgressView = {
         let view = ProgressView()
-        view.drawProgress(10)
+        view.drawProgress(0.7)
         return view
     }()
 }
@@ -36,7 +36,7 @@ extension TimerView {
     
     override func configureView() {
         super.configureView()
-        progressView.backgroundColor = .red
+        
         
     }
 }
