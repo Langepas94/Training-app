@@ -24,6 +24,8 @@
 		4494861E2902D80800A483DA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494861D2902D80800A483DA /* TabBarController.swift */; };
 		449486212902DC5E00A483DA /* UIcolor + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449486202902DC5E00A483DA /* UIcolor + extension.swift */; };
 		449486242902DFE500A483DA /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449486232902DFE500A483DA /* Resources.swift */; };
+		44AB1199291152020056D78A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB1198291152020056D78A /* TimerView.swift */; };
+		44AB119B291152F20056D78A /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB119A291152F20056D78A /* ProgressView.swift */; };
 		44D34EE6290A5C3B00A3B3AA /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D34EE5290A5C3B00A3B3AA /* WeekView.swift */; };
 		44D34EE8290A610200A3B3AA /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D34EE7290A610200A3B3AA /* WeekdayView.swift */; };
 		44D34EEA290A6B7300A3B3AA /* Date + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D34EE9290A6B7300A3B3AA /* Date + extension.swift */; };
@@ -50,6 +52,8 @@
 		4494861D2902D80800A483DA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		449486202902DC5E00A483DA /* UIcolor + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor + extension.swift"; sourceTree = "<group>"; };
 		449486232902DFE500A483DA /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		44AB1198291152020056D78A /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		44AB119A291152F20056D78A /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		44D34EE5290A5C3B00A3B3AA /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		44D34EE7290A610200A3B3AA /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		44D34EE9290A6B7300A3B3AA /* Date + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + extension.swift"; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 		4479A57C29067BD20051DADE /* Session */ = {
 			isa = PBXGroup;
 			children = (
+				44AB1197291151ED0056D78A /* Views */,
 				4479A58329067C450051DADE /* SessionController.swift */,
 			);
 			path = Session;
@@ -196,6 +201,23 @@
 				44D34EE9290A6B7300A3B3AA /* Date + extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		44AB1197291151ED0056D78A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44AB119C291152FE0056D78A /* Timer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44AB119C291152FE0056D78A /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				44AB1198291152020056D78A /* TimerView.swift */,
+				44AB119A291152F20056D78A /* ProgressView.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 		44D34EE4290A5C2100A3B3AA /* WeekView */ = {
@@ -289,6 +311,7 @@
 				44D34EE6290A5C3B00A3B3AA /* WeekView.swift in Sources */,
 				442344942902AA96005E57D6 /* OverviewController.swift in Sources */,
 				4494861E2902D80800A483DA /* TabBarController.swift in Sources */,
+				44AB1199291152020056D78A /* TimerView.swift in Sources */,
 				4479A5B22906C5580051DADE /* OverviewNavBar.swift in Sources */,
 				4479A57929067A8F0051DADE /* UIView + extension.swift in Sources */,
 				442344902902AA96005E57D6 /* AppDelegate.swift in Sources */,
@@ -296,6 +319,7 @@
 				4479A58229067C190051DADE /* ProgressController.swift in Sources */,
 				4479A5B02906A8C40051DADE /* WAButton.swift in Sources */,
 				44D34EED290A880400A3B3AA /* WABaseInfoView.swift in Sources */,
+				44AB119B291152F20056D78A /* ProgressView.swift in Sources */,
 				4479A574290674B20051DADE /* NavBarController.swift in Sources */,
 				449486242902DFE500A483DA /* Resources.swift in Sources */,
 				44D34EEA290A6B7300A3B3AA /* Date + extension.swift in Sources */,

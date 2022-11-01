@@ -9,8 +9,8 @@ import Foundation
 import UIKit
 
 class SessionController: BaseController {
-    private let timerView: WABaseInfoView = {
-        let view = WABaseInfoView(with: "Tasdest", buttonTitle: "test button".uppercased())
+    private let timerView: TimerView = {
+        let view = TimerView()
         
         return view
     }()
