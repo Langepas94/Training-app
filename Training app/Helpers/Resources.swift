@@ -30,12 +30,12 @@ enum Resources {
         
     }
     enum Colors {
-        static var active = UIColor(hexString: "#447BFE")
-        static var inactive = UIColor(hexString: "#929DA5")
-        static var separator = UIColor(hexString: "#E8ECEF")
-        static var titleGray = UIColor(hexString: "#545C77")
-        static var background = UIColor(hexString: "#F8F9F9")
-        static var secondary = UIColor(hexString: "#F0F3FF")
+        static let active = UIColor(hexString: "#447BFE")
+        static let inactive = UIColor(hexString: "#929DA5")
+        static let separator = UIColor(hexString: "#E8ECEF")
+        static let titleGray = UIColor(hexString: "#545C77")
+        static let background = UIColor(hexString: "#F8F9F9")
+        static let secondary = UIColor(hexString: "#F0F3FF")
     }
     enum Strings {
         enum TabBar {
