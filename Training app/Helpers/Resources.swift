@@ -37,6 +37,10 @@ enum Resources {
         static let background = UIColor(hexString: "#F8F9F9")
         static let secondary = UIColor(hexString: "#F0F3FF")
     }
+    enum Session {
+        static let elapsedTime = "Elapsed Time"
+        static let remainingTime = "Remaining Time"
+    }
     enum Strings {
         enum TabBar {
             static func title(for tab: Tabs) -> String {
